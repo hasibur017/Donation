@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 50px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.500), rgba(0, 0, 0, 0.500)), url(img/donation7.jpg);
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+
+    background-size: cover;
+}
+
+.header {
+    padding: 150px 0;
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgba(242, 71, 8, 0.855);
+    padding: 10px 30px;
+    border-radius: 5px;
+
+}
+
+.header h1 {
+    font-size: 50px;
+    color: rgba(243, 245, 245, 0.801);
+}
+
+.header h2 {
+    font-size: 40px;
+    color: rgba(243, 245, 245, 0.801);
+}
+
+.header p {
+    font-size: 25px;
+    color: rgba(243, 245, 245, 0.801);
+    padding-bottom: 5%;
+}
+
+.today-container {
+    text-align: center;
+}
+
+.text-area {
+    padding: 20px 0;
+}
+
+.amount-container {
+    display: flex;
+    padding: 0 250px;
+
+}
+
+.amount {
+    padding: 50px 50px;
+    margin: auto;
+    border: 1px solid #fafafa;
+    background-color: #fafafa;
+    border-radius: 5px;
+}
+
+.amount-container .red {
+    border: 1px solid red;
+    background-color: #ffeeee;
+}
+
+.amount-input {
+    margin: 20px 0;
+    border: none;
+    padding: 20px 150px;
+    border-bottom: 1px solid;
+}
+
+.text-tipe {
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+.plan {
+    text-align: center;
+    padding: 20px 25px;
+}
+
+.donation {
+    display: flex;
+    padding: 20px;
+}
+
+.services {
+    background-color: rgb(186, 219, 219);
+    margin-right: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.services-family {
+    background-color: rgb(149, 221, 197);
+    margin-right: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.services-child {
+    background-color: rgb(240, 204, 161);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.work {
+    display: flex;
+    padding: 20px 20px;
+}
+
+.work .half-width {
+    width: 50%;
+    margin: 20px;
+}
+
+.work .half-width img {
+    max-width: 100%;
+}
+
+
+
+.updates {
+    text-align: center;
+    padding: 20px;
+}
+
+.subscribe-container {
+    padding: 20px 50px;
+    margin: auto;
+
+}
+
+.subscribe {
+    display: flex;
+    padding: 50px 500px;
+    background-color: #fff4d6;
+}
+
+.input-text input {
+    padding: 5px 0;
+}
+
+.subscribe-button {
+    background-color: rgba(242, 71, 8, 0.855);
+    padding: 1px 3px;
+    border-radius: 3px;
+}
+
+
+
+#contact {
+    text-align: center;
+}
+
+.contact {
+    border: 1px;
+    padding: 10px 50px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 78.5%;
+    text-align: center;
+    box-shadow: 5px 5px 9px;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    color: brown;
+    padding: 3px;
+}
